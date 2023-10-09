@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
 	<info>
-		<name>Your Content</name>
+		<name>HB Content</name>
+		<description>Hyper cooked HB content. Hail Peanuts</description>
 		<update version="1.0.0">
 			<file name="user-Peanuts201.index" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201.index" />
 		</update>
