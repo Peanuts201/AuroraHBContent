@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0.1" encoding="utf-8" ?>
 <elements>
 	<info>
 		<name>File 1</name>
@@ -7,6 +7,22 @@
 		</update>
 	</info>
 	
-	<!-- place your elements here -->
+	<element name="Saiyafushi" type="Katana" source="HBContent" id="ID_HBCONTENT_SAIYAFUSHI">
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">This Katana is so sharp that it can't be sheathed.</p>
+		</description>
+		<setters>
+			<set name="keywords">sword</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			<set name="name-format">Saiyafushi</set>
+		</setters>
+	</element>
 	
 </elements>
