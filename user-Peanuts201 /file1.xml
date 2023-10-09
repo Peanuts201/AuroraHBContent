@@ -1,7 +1,7 @@
 <?xml version="1.0.1" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>File 1</name>
+		<name>HB Items</name>
 		<update version="1.0.0">
 			<file name="file1.xml" url="https://raw.githubusercontent.com/yourgithubaccount/repositoryname/master/user-yourname/file1.xml" />
 		</update>
