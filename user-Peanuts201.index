@@ -4,7 +4,7 @@
 		<name>HB Content</name>
 		<description>Hyper cooked HB content. Hail Peanuts</description>
 		<update version="1.0.0">
-			<file name="user-Peanuts201.index" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201.index" />
+			<file name="user-Peanuts201.index" url="https://raw.githubusercontent.com/aurorabuilder/AuroraHBContent/master/user-Peanuts201.index" />
 		</update>
 	</info>
 	<files>
