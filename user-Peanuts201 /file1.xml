@@ -7,9 +7,9 @@
 			<file name="file1.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/file1.xml" />
 		</update>
 	</info>
-	<element name="Weapon, +1" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_WEAPON_1_HB">
+	<element name="Sayafushi" type="Magic Item" source="HB Content Baby" id="ID_WOTC_DMG_MAGIC_ITEM_SAYAFUSHI">
 		<description>
-			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p>You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
 		</description>
 		<setters>
 			<set name="category">Magic Weapons</set>
