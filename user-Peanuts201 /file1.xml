@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>HB Items</name>
-		<update version="1.0.0">
-			<file name="file1.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201 /file1.xml" />
+		<name>WeaponsHB</name>
+		<description></description>
+		<update version="0.0.1">
+			<file name="file1.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/file1.xml" />
 		</update>
 	</info>
-	
-	<element name="Saiyafushi" type="Katana" source="HBContent" id="ID_HBCONTENT_SAIYAFUSHI">
+	<element name="Weapon, +1" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_WEAPON_1_HB">
 		<description>
-			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
-			<p class="indent">This Katana is so sharp that it can't be sheathed.</p>
+			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
 		</description>
 		<setters>
-			<set name="keywords">sword</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="any sword">Weapon</set>
-			<set name="attunement">true</set>
+			<set name="type" addition="any">Weapon</set>
 			<set name="rarity">Uncommon</set>
 			<set name="enhancement">1</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
-			<set name="name-format">Saiyafushi</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="name-format">{{parent}} +{{enhancement}}</set>
 		</setters>
 	</element>
 	
