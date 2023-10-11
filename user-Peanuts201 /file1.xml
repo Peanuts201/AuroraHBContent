@@ -8,10 +8,10 @@
 		</update>
 	</info>
 	
-	<element name="Katana, Versatile" type="Weapon" source="HB COntent" id="ID_HBC_KATANA_VERSATILE">
+	<element name="Katana, Versatile" type="Weapon" source="HB Content" id="ID_HBC_KATANA_VERSATILE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
 		<description>
-			<p></p>
+			<p>In some cultures this strong, single-edged sword is a symbol of honor and prestige. The katana is intended for two-handed use, but it's light enough to be wielded one-handed. </p>
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
@@ -24,7 +24,7 @@
 		</setters>
 	</element>
 	
-	<element name="Sayafushi" type="Magic Item" source="HB Content Baby" id="ID_WOTC_DMG_MAGIC_ITEM_SAYAFUSHI">
+	<element name="Sayafushi" type="Magic Item" source="HB Content" id="ID_HBC_MAGIC_ITEM_SAYAFUSHI">
 		<description>
 			<p>You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
 		</description>
@@ -39,5 +39,11 @@
 			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
 		</setters>
 	</element>
+
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+		</rules>
+	</append>
 	
 </elements>
