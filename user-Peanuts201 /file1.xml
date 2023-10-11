@@ -42,7 +42,7 @@
 
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+			<grant type="proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
 		</rules>
 	</append>
 	
