@@ -3,12 +3,14 @@
 	<info>
 		<name>WeaponsHB</name>
 		<description></description>
-		<update version="0.0.2">
+		<update version="0.1.0">
 			<file name="file1.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/file1.xml" />
 		</update>
 	</info>
+
+<!--             Base weapons             -->
 	
-	<element name="Katana" type="Weapon" source="HB Content" id="ID_HBC_KATANA_VERSATILE">
+	<element name="Katana (Versatile)" type="Weapon" source="HB Content" id="ID_HBC_KATANA_VERSATILE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_VERSATILE,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
 		<description>
 			<p>In some cultures this strong, single-edged sword is a symbol of honor and prestige. The katana is intended for two-handed use, but it's light enough to be wielded one-handed. </p>
@@ -24,13 +26,31 @@
 		</setters>
 	</element>
 
+	<element name="Katana (Finesse)" type="Weapon" source="HB Content" id="ID_HBC_KATANA_FINESSE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_FINESSE,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
+		<description>
+			<p>A light katana, specially made for precise and quick strikes.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
+		</setters>
+	</element>
+
 	<element name="Weapon Proficiency (Katana)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA">
 		<supports>Weapon,Martial,Melee,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
 	</element>
+
+<!--             Magic weapons             -->
 	
 	<element name="Sayafushi" type="Magic Item" source="HB Content" id="ID_HBC_MAGIC_ITEM_SAYAFUSHI">
 		<description>
-			<p>You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p>Sayafushi's blade is too sharp and its edge is too smooth; it never chips or scratches from use, and blood slides off it immediately. Because of this, no sheath can hold it.</p>
+			<p class="indent"><strong><em>First Sword.</em></strong> You have a +2 bonus to attack and damage rolls made with this magic weapon, which deals an additional 1d8 slashing damage on a hit. Damage dealt with this weapon ignores resistance to slashing damage. If you are a spellcaster, you can use this weapon as a spellcasting focus.</p>
 		</description>
 		<setters>
 			<set name="keywords">Katana</set>
