@@ -41,7 +41,7 @@
 			<set name="attunement">true</set>
 			<set name="enhancement">2</set>
 			<set name="weapon">Sayafushi</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_KATANAS</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
 			<set name="weapon">Katana</set>
 		</setters>
 	</element>
@@ -50,10 +50,6 @@
 		<rules>
 			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
 		</rules>
-	</append>
-
-	<append id="ID_INTERNAL_WEAPON_GROUP_KATANAS">
-		<supports>ID_HBC_KATANA_VERSATILE</supports>
 	</append>
 	
 </elements>
