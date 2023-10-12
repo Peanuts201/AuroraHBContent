@@ -52,9 +52,7 @@
 	</append>
 
 	<append id="ID_INTERNAL_WEAPON_GROUP_KATANAS">
-		<rules>
-			<grant type="Weapon" name="ID_HBC_KATANA_VERSATILE" />
-		</rules>
+		<supports>type="Weapon" name="ID_HBC_KATANA_VERSATILE" </supports>
 	</append>
 	
 </elements>
