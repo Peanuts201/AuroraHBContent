@@ -33,9 +33,10 @@
 			<p>You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
 		</description>
 		<setters>
+			<set name="keywords">katana</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="any sword">Weapon</set>
+			<set name="type" addition="katana">Weapon</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">true</set>
 			<set name="enhancement">2</set>
