@@ -50,5 +50,11 @@
 			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
 		</rules>
 	</append>
+
+	<append id="ID_INTERNAL_WEAPON_GROUP_KATANAS">
+		<rules>
+			<grant type="Weapon" name="ID_HBC_KATANA_VERSATILE" />
+		</rules>
+	</append>
 	
 </elements>
