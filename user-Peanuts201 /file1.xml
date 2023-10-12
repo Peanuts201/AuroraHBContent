@@ -8,7 +8,7 @@
 		</update>
 	</info>
 	
-	<element name="Katana (Versatile)" type="Weapon" source="HB Content" id="ID_HBC_KATANA_VERSATILE">
+	<element name="Katana" type="Weapon" source="HB Content" id="ID_HBC_KATANA_VERSATILE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_VERSATILE,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
 		<description>
 			<p>In some cultures this strong, single-edged sword is a symbol of honor and prestige. The katana is intended for two-handed use, but it's light enough to be wielded one-handed. </p>
@@ -33,7 +33,7 @@
 			<p>You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
 		</description>
 		<setters>
-			<set name="keywords">katana</set>
+			<set name="keywords">Katana</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="katana">Weapon</set>
@@ -42,6 +42,7 @@
 			<set name="enhancement">2</set>
 			<set name="weapon">Sayafushi</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_KATANAS</set>
+			<set name="weapon">Katana</set>
 		</setters>
 	</element>
 
@@ -52,7 +53,7 @@
 	</append>
 
 	<append id="ID_INTERNAL_WEAPON_GROUP_KATANAS">
-		<supports>type="Weapon" name="ID_HBC_KATANA_VERSATILE" </supports>
+		<supports>ID_HBC_KATANA_VERSATILE</supports>
 	</append>
 	
 </elements>
