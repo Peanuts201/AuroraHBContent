@@ -42,6 +42,7 @@
 			<set name="enhancement">2</set>
 			<set name="weapon">Sayafushi</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_KATANAS</set>
+			<set name="weapon">Katana, Versatile</set>
 		</setters>
 	</element>
 
