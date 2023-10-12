@@ -8,7 +8,7 @@
 		</update>
 	</info>
 	
-	<element name="Katana, Versatile" type="Weapon" source="HB Content" id="ID_HBC_KATANA_VERSATILE">
+	<element name="Katana (Versatile)" type="Weapon" source="HB Content" id="ID_HBC_KATANA_VERSATILE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_VERSATILE,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
 		<description>
 			<p>In some cultures this strong, single-edged sword is a symbol of honor and prestige. The katana is intended for two-handed use, but it's light enough to be wielded one-handed. </p>
