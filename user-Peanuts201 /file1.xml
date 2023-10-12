@@ -29,7 +29,6 @@
 	</element>
 	
 	<element name="Sayafushi" type="Magic Item" source="HB Content" id="ID_HBC_MAGIC_ITEM_SAYAFUSHI">
-		<supports>ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
 		<description>
 			<p>You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
 		</description>
