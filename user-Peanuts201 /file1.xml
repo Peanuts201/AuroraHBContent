@@ -35,7 +35,7 @@
 		<setters>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="longsword">Weapon</set>
+			<set name="type" addition="katana">Weapon</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">true</set>
 			<set name="enhancement">2</set>
