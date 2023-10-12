@@ -43,7 +43,7 @@
 			<set name="attunement">true</set>
 			<set name="enhancement">2</set>
 			<set name="weapon">Sayafushi</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</set>
 		</setters>
 	</element>
 
