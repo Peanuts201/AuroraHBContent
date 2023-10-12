@@ -40,9 +40,7 @@
 			<set name="rarity">Rare</set>
 			<set name="attunement">true</set>
 			<set name="enhancement">2</set>
-			<set name="weapon">Sayafushi</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
-			<set name="weapon">Katana</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_KATANAS</set>
 		</setters>
 	</element>
 
