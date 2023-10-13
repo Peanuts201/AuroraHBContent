@@ -42,22 +42,27 @@
 	</element>
 
 	<element name="Claws" type="Weapon" source="HB Content" id="ID_HBC_CLAWS">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_FINESSE,ID_INTERNAL_WEAPON_GROUP_CLAWS</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_FINESSE,ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED,ID_INTERNAL_WEAPON_GROUP_CLAWS</supports>
 		<description>
-			<p>A light katana, specially made for precise and quick strikes.</p>
+			<p>This pair of leather gauntlets are studded with metal plates to increase their weight, and thus the force of the slashes behind their sharp blades.</p>
+			<p class="indent"><strong><em>Gloves.</em></strong> A glove weapon is worn on your hand or forearm, and you cannot be disarmed of it. You can hold objects, wield weapons, and cast spells with a hand fitted with a glove weapon, but you can only attack with the glove weapon if that hand is unoccupied. It takes an action to don or doff a glove weapon.</p>
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">15</set>
-			<set name="weight" lb="2">2 lb.</set>
-			<set name="slot">onehand</set>
-			<set name="damage" type="slashing">1d8</set>
-			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">2d4</set>
+			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAWS</set>
 		</setters>
 	</element>
 
 	<element name="Weapon Proficiency (Katana)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA">
 		<supports>Weapon,Martial,Melee,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
+	</element>
+
+	<element name="Weapon Proficiency (Claws)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAWS">
+		<supports>Weapon,Simple,Melee,ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_GROUP_CLAWS</supports>
 	</element>
 
 <!--             Magic weapons             -->
@@ -79,9 +84,16 @@
 		</setters>
 	</element>
 
+<!--                     Add Proficiency          -->
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+		</rules>
+	</append>
+
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAWS" />
 		</rules>
 	</append>
 	
