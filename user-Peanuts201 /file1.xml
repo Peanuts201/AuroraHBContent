@@ -3,11 +3,12 @@
 	<info>
 		<name>WeaponsHB</name>
 		<description></description>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="file1.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/file1.xml" />
 		</update>
 	</info>
-
+<!-- To DO
+	Prof kusarigama related stuff-->
 <!--             Base weapons             -->
 	
 	<element name="Katana (Versatile)" type="Weapon" source="HB Content" id="ID_HBC_KATANA_VERSATILE">
@@ -49,11 +50,25 @@
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">15</set>
+			<set name="cost" currency="gp">5</set>
 			<set name="weight" lb="7">7 lb.</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">2d4</set>
 			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAWS</set>
+		</setters>
+	</element>
+
+	<element name="Kusarigama" type="Weapon" source="HB Content" id="ID_HBC_KUSARIGAMA">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_PROPERTY_FINESSE,ID_INTERNAL_WEAPON_PROPERTY_REACH,ID_INTERNAL_WEAPON_GROUP_KUSARIGAMAS</supports>
+		<description>
+			<p>When used at close range (5 ft.) this weapon can deal slashing damage instead of bludgeoning.</p>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="7">7 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="bludgeoning">1d8</set>
+			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KUSARIGAMAS</set>
 		</setters>
 	</element>
 
