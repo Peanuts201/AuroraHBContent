@@ -54,21 +54,21 @@
 			<set name="weight" lb="7">7 lb.</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">2d4</set>
-			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAWS</set>
+			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAW</set>
 		</setters>
 	</element>
 
 	<element name="Kusarigama" type="Weapon" source="HB Content" id="ID_HBC_KUSARIGAMA">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_PROPERTY_FINESSE,ID_INTERNAL_WEAPON_PROPERTY_REACH,ID_INTERNAL_WEAPON_GROUP_KUSARIGAMAS</supports>
 		<description>
-			<p>When used at close range (5 ft.) this weapon can deal slashing damage instead of bludgeoning.</p>
+			<p>When used at close range (5 ft.) you van strike using the kama part of the weapon, dealing slashing damage instead of bludgeoning.</p>
 		<setters>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">20</set>
 			<set name="weight" lb="7">7 lb.</set>
 			<set name="slot">onehand</set>
 			<set name="damage" type="bludgeoning">1d8</set>
-			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KUSARIGAMAS</set>
+			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KUSARIGAMA</set>
 		</setters>
 	</element>
 
@@ -76,8 +76,12 @@
 		<supports>Weapon,Martial,Melee,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Claws)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAWS">
+	<element name="Weapon Proficiency (Claws)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAW">
 		<supports>Weapon,Simple,Melee,ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_GROUP_CLAWS</supports>
+	</element>
+
+	<element name="Weapon Proficiency (Kusarigama)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KUSARIGAMA">
+		<supports>Weapon,Martial,Melee,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_GROUP_KUSARIGAMAS</supports>
 	</element>
 
 <!--             Magic weapons             -->
@@ -99,10 +103,11 @@
 		</setters>
 	</element>
 
-<!--                     Add Proficiency          -->
+<!--                     Add Proficiency To Weapon Archtypes       -->
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+			<grant type="Proficiency" neme="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KUSARIGAMA" />
 		</rules>
 	</append>
 
