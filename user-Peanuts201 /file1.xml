@@ -62,6 +62,7 @@
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_PROPERTY_FINESSE,ID_INTERNAL_WEAPON_PROPERTY_REACH,ID_INTERNAL_WEAPON_GROUP_KUSARIGAMAS</supports>
 		<description>
 			<p>When used at close range (5 ft.) you van strike using the kama part of the weapon, dealing slashing damage instead of bludgeoning.</p>
+		<description/>
 		<setters>
 			<set name="category">Weapons</set>
 			<set name="cost" currency="gp">20</set>
