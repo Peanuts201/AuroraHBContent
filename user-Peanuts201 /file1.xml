@@ -77,7 +77,7 @@
 		<supports>Weapon,Martial,Melee,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
 	</element>
 
-	<element name="Weapon Proficiency (Claws)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAW">
+	<element name="Weapon Proficiency (Claws)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAWS">
 		<supports>Weapon,Simple,Melee,ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_GROUP_CLAWS</supports>
 	</element>
 
