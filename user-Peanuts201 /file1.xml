@@ -54,7 +54,7 @@
 			<set name="weight" lb="7">7 lb.</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">2d4</set>
-			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAW</set>
+			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAWS</set>
 		</setters>
 	</element>
 
