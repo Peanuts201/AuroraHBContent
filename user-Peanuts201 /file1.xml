@@ -109,7 +109,7 @@
 			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
 		</description>
 		<setters>
-			<set name="category">Magic Weapons</set>
+			<set name="category">Magic Weapons Enhancement</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="any">Magic Weapon</set>
 			<set name="rarity">Uncommon</set>
