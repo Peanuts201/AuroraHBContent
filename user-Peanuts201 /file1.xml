@@ -108,7 +108,7 @@
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
-			<grant type="Proficiency" neme="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KUSARIGAMA" />
+			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KUSARIGAMA" />
 		</rules>
 	</append>
 
