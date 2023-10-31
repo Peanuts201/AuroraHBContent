@@ -9,5 +9,6 @@
 	</info>
 	<files>
 		<file name="file1.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201 /weapons.xml" />
+		<file name="file1.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201 /armor.xml" />
 	</files>
 </index>
