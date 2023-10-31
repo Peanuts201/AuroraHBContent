@@ -8,7 +8,7 @@
 		</update>
 	</info>
 
-	<element name="Armor of a Thousand Clouds" type="Magic Item" source="HB Content" id="ID_WOTC_DMG_MAGIC_ITEM_ADAMANTINE_ARMOR">
+	<element name="Armor of a Thousand Clouds" type="Magic Item" source="HB Content" id="ID_HBC_ARMOR_THOUSAND_CLOUDS">
 		<supports>Armor</supports>
 		<description>
 			<p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.</p>
@@ -18,10 +18,11 @@
 			<set name="category">Magic Armor</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="slot">body</set>
-			<set name="type" addition="medium or heavy, but not hide">Armor</set>
-			<set name="rarity">Uncommon</set>
-			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
-			<set name="name-format">Adamantine {{parent}}</set>
+			<set name="type" addition="light, medium or heavy, but not hide">Armor</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very rare</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_LIGHT||ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Armor of a Thousand Clouds</set>
 		</setters>
 	</element>
 <!-- To DO
