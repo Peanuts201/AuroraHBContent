@@ -4,7 +4,7 @@
 		<name>WeaponsHB</name>
 		<description></description>
 		<update version="0.1.3">
-			<file name="file1.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/file1.xml" />
+			<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/weapons.xml" />
 		</update>
 	</info>
 <!-- To DO
