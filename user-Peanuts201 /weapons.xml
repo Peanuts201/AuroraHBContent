@@ -104,20 +104,6 @@
 		</setters>
 	</element>
 
-	<element name="Magic Weapon, +1" type="Magic Item" source="HB Content" id="ID_HBC_MAGIC_WEAPON_PLUS_1">
-		<description>
-			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
-		</description>
-		<setters>
-			<set name="category">Magic Weapons Enhancement</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="any">Magic Weapon</set>
-			<set name="rarity">Uncommon</set>
-			<set name="enhancement">1</set>
-			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
-			<set name="name-format">{{parent}} +{{enhancement}}</set>
-		</setters>
-	</element>
 <!--                     Add Proficiency To Weapon Archtypes       -->
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
 		<rules>
