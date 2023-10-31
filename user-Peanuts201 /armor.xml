@@ -3,7 +3,7 @@
 	<info>
 		<name>ArmorHB</name>
 		<description></description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="armor.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/armor.xml" />
 		</update>
 	</info>
@@ -11,10 +11,13 @@
 	<element name="Armor of a Thousand Clouds" type="Magic Item" source="HB Content" id="ID_HBC_ARMOR_THOUSAND_CLOUDS">
 		<supports>Armor</supports>
 		<description>
-			<p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.</p>
+			<p>This suit of armor is painted with gold, blue and white details, as well as having a mysterious magic infusing it. The armor can hold up to 5 charges. Whenever an attack misses you you gain 1 charge, but no more than once per turn. At the end of combat, all remainig charges are converted into 3 temporary Hp each.</p>
+			<p class="indent"><strong><em>Skyward Guard.</em></strong> Holding a single charge grants a bonus +1 to AC. At 3 charges this bonus raises to +2 and at 5 charges the bonus rises to +3.</p>
+			<p class="indent"><strong><em>Wind's Rebuke</em></strong> With 3 or more charges, when an melee attack misses you,as a reaction you can unleash a gust of wind to push the attacker 10ft away (consumes 2 charges)</p>
+			<p class="indent"><strong><em>Cloudform Shift</em></strong> At 5 charges the next melle attack made against you simply passes through, as if you were momentarily made of mist (consumes all charges)</p>
 		</description>
 		<setters>
-			<set name="keywords">medium, heavy</set>
+			<set name="keywords">light, medium, heavy</set>
 			<set name="category">Magic Armor</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="slot">body</set>
