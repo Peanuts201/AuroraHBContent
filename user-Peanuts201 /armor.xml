@@ -1,2 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>ArmorHB</name>
+		<description></description>
+		<update version="0.0.1">
+			<file name="armor.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/armor.xml" />
+		</update>
+	</info>
+
+	<element name="Armor of a Thousand Clouds" type="Magic Item" source="HB Content" id="ID_WOTC_DMG_MAGIC_ITEM_ADAMANTINE_ARMOR">
+		<supports>Armor</supports>
+		<description>
+			<p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="medium or heavy, but not hide">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Adamantine {{parent}}</set>
+		</setters>
+	</element>
 <!-- To DO
 	-->
+</elements>
