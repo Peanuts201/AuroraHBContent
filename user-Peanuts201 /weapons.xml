@@ -3,7 +3,7 @@
 	<info>
 		<name>WeaponsHB</name>
 		<description></description>
-		<update version="0.1.3">
+		<update version="0.1.4">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/weapons.xml" />
 		</update>
 	</info>
@@ -101,6 +101,22 @@
 			<set name="attunement">true</set>
 			<set name="enhancement">2</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_KATANAS</set>
+		</setters>
+	</element>
+
+	<element name="Blade of Chaos" type="Magic Item" source="HB Content" id="ID_HBC_MAGIC_ITEM_BLADE_OF_CHAOS">
+		<description>
+			<p>The Blades of Chaos are a pair of chained blades fashioned by the God of War, Ares. You have a +1 bonus to attack and damage rolls made with this magic scimitar, which deals an additional 1d8 fire damage on a hit.</p>
+			<p class="indent"><strong><em>Chaotic Pair</em></strong>Blades of Chaos are always created in pairs and are intended to be used as such. If you are attuned to a pair of Blades of Chaos, which only requires one attunement slot, they both have the reach property and the thrown property with a normal range of 20 feet and a long range of 60 feet. When you throw this weapon, you can use a bonus action to pull it back into your hand.</p>
+		</description>
+		<setters>
+			<set name="keywords">scimitar</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Scimitar</set>
 		</setters>
 	</element>
 
