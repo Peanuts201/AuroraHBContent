@@ -8,7 +8,7 @@
 		</update>
 	</info>
 
-	<element name="Armor of a Thousand Clouds" type="Magic Item" source="HB Content" id="ID_HBC_ARMOR_THOUSAND_CLOUDS">
+	<element name="Armor of a Thousand Clouds" type="Magic Item" source="HB Content" id="ID_HBC_MAGIC_ITEM_ARMOR_THOUSAND_CLOUDS">
 		<supports>Armor</supports>
 		<description>
 			<p>This suit of armor is painted with gold, blue and white details, as well as having a mysterious magic infusing it. The armor can hold up to 5 charges. Whenever an attack misses you you gain 1 charge, but no more than once per turn. At the end of combat, all remainig charges are converted into 3 temporary Hp each.</p>
