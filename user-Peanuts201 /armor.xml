@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>ArmorHB</name>
+		<name>Armor HB</name>
 		<description></description>
 		<update version="0.0.2">
 			<file name="armor.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/armor.xml" />
