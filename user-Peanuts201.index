@@ -10,5 +10,6 @@
 	<files>
 		<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201 /weapons.xml" />
 		<file name="armor.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201 /armor.xml" />
+		<file name="wonderitems.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201 /wonderitems.xml" />
 	</files>
 </index>
