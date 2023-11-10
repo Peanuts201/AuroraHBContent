@@ -20,6 +20,9 @@
 			<set name="rarity">Artifact</set>
 			<set name="attunement">true</set>
 		</setters>
+		<rules>
+			<stat name="charisma" value="15" bonus="base" />
+		</rules>
 	 </element>
   
 </elements>
