@@ -7,7 +7,19 @@
 			<file name="wonderitems.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/wonderitems.xml" />
 		</update>
 	</info>
-	 <element name="Eyepatch of Truesight" type="Magic Item" source="HB Content" id="ID_HBC_EYEPATCH_TRUESIGHT">
+	 <element name="Blindfold of Truesight" type="Magic Item" source="HB Content" id="ID_HBC_BLINDFOLD_TRUESIGHT">
+		 <description>
+			 <p> While Attuned, the wearer has Truesight to a range of 30ft., their Charisma score increases to 15, and they gain proficiency in the intimidation or performance skill. If the wearers Charisma score is already 15 or above, the wearer gains a +2 to Charisma.</p>
+			 <p><strong><em>Truesight.</em></strong>A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.</p>
+		 </description>
+		 <setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.2">0.2 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement">true</set>
+		</setters>
 	 </element>
   
 </elements>
