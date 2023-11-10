@@ -7,6 +7,7 @@
 			<file name="wonderitems.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/wonderitems.xml" />
 		</update>
 	</info>
-
+	 <element name="Eyepatch of Truesight" type="Magic Item" source="HB Content" id="ID_HBC_EYEPATCH_TRUESIGHT">
+	 </element>
   
 </elements>
