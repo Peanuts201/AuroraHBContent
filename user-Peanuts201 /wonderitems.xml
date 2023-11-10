@@ -1,1 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Wondrous Items HB</name>
+		<description></description>
+		<update version="0.1.0">
+			<file name="wonderitems.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/wonderitems.xml" />
+		</update>
+	</info>
 
+  
+</elements>
