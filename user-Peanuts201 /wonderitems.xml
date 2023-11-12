@@ -3,7 +3,7 @@
 	<info>
 		<name>Wondrous Items HB</name>
 		<description></description>
-		<update version="0.1.0">
+		<update version="0.1.1">
 			<file name="wonderitems.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/wonderitems.xml" />
 		</update>
 	</info>
@@ -21,7 +21,7 @@
 			<set name="attunement">true</set>
 		</setters>
 		<rules>
-			<stat name="charisma" value="15" bonus="base" />
+			<stat name="charisma" value="2" bonus="base" />
 		</rules>
 	 </element>
   
