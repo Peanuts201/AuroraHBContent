@@ -3,13 +3,13 @@
 	<info>
 		<name>Wondrous Items HB</name>
 		<description></description>
-		<update version="0.1.1">
+		<update version="0.1.2">
 			<file name="wonderitems.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/wonderitems.xml" />
 		</update>
 	</info>
 	 <element name="Blindfold of Truesight" type="Magic Item" source="HB Content" id="ID_HBC_BLINDFOLD_TRUESIGHT">
 		 <description>
-			 <p> While Attuned, the wearer has Truesight to a range of 30ft., their Charisma score increases to 15, and they gain proficiency in the intimidation or performance skill. If the wearers Charisma score is already 15 or above, the wearer gains a +2 to Charisma.</p>
+			 <p> While Attuned, the wearer has Truesight to a range of 30ft., their Charisma score increases to 16 (if it's already 16 or higher there's no alteration) and they gain proficiency in the intimidation and performance skill.</p>
 			 <p><strong><em>Truesight.</em></strong>A creature with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature can see into the Ethereal Plane.</p>
 		 </description>
 		 <setters>
@@ -21,7 +21,9 @@
 			<set name="attunement">true</set>
 		</setters>
 		<rules>
-			<stat name="charisma" value="2" bonus="base" />
+			<stat name="charisma:score:set" value="15" bonus="base" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_iNTIMIDATION" />
 		</rules>
 	 </element>
   
