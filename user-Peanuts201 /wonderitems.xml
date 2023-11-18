@@ -23,9 +23,7 @@
 		<rules>
 			<stat name="charisma:score:set" value="16" bonus="base" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
-			<!--
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_iNTIMIDATION" />
-			-->
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 		</rules>
 	 </element>
   
