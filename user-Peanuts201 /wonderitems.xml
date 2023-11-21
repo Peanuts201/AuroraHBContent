@@ -26,5 +26,14 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 		</rules>
 	 </element>
+
+	<element name="Gloves of the soul Reaper" type="Magic Item" source="HB Content" id="ID_HBC_GOLIATH_GLOVES">
+		<description>
+			<p>While Attuned, the wearer's Constitution score is raised to 20</p>
+			<p><strong><em>Goliath's Duality.</em></strong>After making a successful unarmed strike while wearing these gloves deal an extra 2d10 force damage to the target, and you can choose one of 2 effects: </p>
+			<p><strong><em>Soul Stealer.</em></strong>Regain a number of hit points equal to the force damage dealt.</p>
+			<p><strong><em>Soul NUmbening.</em></strong>Gain advantage on one attack roll, ability check, or saving throw you make before the end of your next turn..</p>
+		</description>
+	</element>
   
 </elements>
