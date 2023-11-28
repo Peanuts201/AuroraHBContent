@@ -3,7 +3,7 @@
 	<info>
 		<name>Weapons HB</name>
 		<description></description>
-		<update version="0.1.4">
+		<update version="0.1.5">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/weapons.xml" />
 		</update>
 	</info>
@@ -118,6 +118,7 @@
 			<set name="attunement">true</set>
 			<set name="enhancement">1</set>
 			<set name="weapon">Scimitar</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SCIMITARS</set>
 		</setters>
 	</element>
 
