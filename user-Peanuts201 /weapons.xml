@@ -3,7 +3,7 @@
 	<info>
 		<name>Weapons HB</name>
 		<description></description>
-		<update version="0.1.5">
+		<update version="0.1.6">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/weapons.xml" />
 		</update>
 	</info>
@@ -73,6 +73,21 @@
 		</setters>
 	</element>
 
+	<element name="Maraka" type="Weapon" source="HB Content" id="ID_HBC_MARAKAS">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_PROPERTY_FINESSE,ID_INTERNAL_WEAPON_GROUP_MARAKAS</supports>
+		<description>
+			<p>A musical instrument made specifically to smack others.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="bludgeoning">1d8</set>
+			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_MARAKA</set>
+		</setters>
+	</element>
+
 	<element name="Weapon Proficiency (Katana)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA">
 		<supports>Weapon,Martial,Melee,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
 	</element>
@@ -83,6 +98,10 @@
 
 	<element name="Weapon Proficiency (Kusarigama)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KUSARIGAMA">
 		<supports>Weapon,Martial,Melee,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_GROUP_KUSARIGAMAS</supports>
+	</element>
+
+	<element name="Weapon Proficiency (Maraka)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_MARAKA">
+		<supports>Weapon,Simple,Melee,ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE,ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING,ID_INTERNAL_WEAPON_GROUP_MARAKAS</supports>
 	</element>
 
 <!--             Magic weapons             -->
@@ -122,6 +141,25 @@
 		</setters>
 	</element>
 
+	<element name="Mighty Marakas" type="Magic Item" source="HB Content" id="ID_HBC_MAGIC_ITEM_MIGHTY_MARAKAS">
+		<description>
+			<p>This pair marakas created from the power of the Great Tree of the Feywild harnesses the power of a goliath. This marakas are an inseparable pair, needing to be wielded together.</p>
+			<p>This marakas have a bonus +1 on damage and attack rolls.</p>
+			<p class="indent"><strong><em>Parry.</em></strong>  As a reaction you create a magical shield in the air, reducing the damage of a meelee attack by 1d8 + CON modifier.</p>
+			<p class="indent"><strong><em>Goliath's Will.</em></strong>Shaking your marakas you call upon the power of the goliath in them giving you the following bonuses for 1 hour: You grow 2 sizes larger (alongside your items); You gain imunity to being charmed, frightned, paralized and stunned; You STR and CON is raised by 2 and your AC is raised by 3; You gain advantage on STR and CON saves.<p>
+		</description>
+		<setters>
+			<set name="keywords">Maraka</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="maraka">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_MARAKAS</set>
+		</setters>
+	</element>
+
 <!--                     Add Proficiency To Weapon Archtypes       -->
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
 		<rules>
@@ -133,6 +171,7 @@
 	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
 		<rules>
 			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_CLAWS" />
+			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_MARAKA" />
 		</rules>
 	</append>
 	
