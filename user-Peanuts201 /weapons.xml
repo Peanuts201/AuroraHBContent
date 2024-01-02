@@ -3,7 +3,7 @@
 	<info>
 		<name>Weapons HB</name>
 		<description></description>
-		<update version="0.1.6">
+		<update version="0.1.7">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/weapons.xml" />
 		</update>
 	</info>
