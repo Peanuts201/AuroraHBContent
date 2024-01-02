@@ -146,7 +146,7 @@
 			<p>This pair marakas created from the power of the Great Tree of the Feywild harnesses the power of a goliath. This marakas are an inseparable pair, needing to be wielded together.</p>
 			<p>This marakas have a bonus +1 on damage and attack rolls.</p>
 			<p class="indent"><strong><em>Parry.</em></strong>  As a reaction you create a magical shield in the air, reducing the damage of a meelee attack by 1d8 + CON modifier.</p>
-			<p class="indent"><strong><em>Goliath's Will.</em></strong>Shaking your marakas you call upon the power of the goliath in them giving you the following bonuses for 1 hour: You grow 2 sizes larger (alongside your items); You gain imunity to being charmed, frightned, paralized and stunned; You STR and CON is raised by 2 and your AC is raised by 3; You gain advantage on STR and CON saves.</p>
+			<p class="indent"><strong><em>Goliath's Will (Once/rest).</em></strong>Shaking your marakas you call upon the power of the goliath in them giving you the following bonuses for 1 hour: You grow 2 sizes larger (alongside your items); You gain imunity to being charmed, frightned, paralized and stunned; You STR and CON is raised by 2 and your AC is raised by 3; You gain advantage on STR and CON saves.</p>
 		</description>
 		<setters>
 			<set name="keywords">Maraka</set>
