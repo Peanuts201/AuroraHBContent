@@ -3,13 +3,28 @@
 	<info>
 		<name>Weapons HB</name>
 		<description></description>
-		<update version="0.1.9">
+		<update version="0.2.0">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/weapons.xml" />
 		</update>
 	</info>
 <!-- To DO
 	-->
 <!--             Base weapons             -->
+	
+	<element name="Scythe" type="Weapon" source="HB Content" id="ID_HBC_SCYTHE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED,ID_INTERNAL_WEAPON_PROPERTY_HEAVY,ID_INTERNAL_WEAPON_GROUP_SCYTHES</supports>
+		<description>
+			<p>Drip as Fuck. Place holder. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">place holder</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">twohand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
+		</setters>
+	</element>
 	
 	<element name="Katana (Versatile)" type="Weapon" source="HB Content" id="ID_HBC_KATANA_VERSATILE">
 		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_PROPERTY_VERSATILE,ID_INTERNAL_WEAPON_GROUP_KATANAS</supports>
@@ -86,6 +101,10 @@
 			<set name="damage" type="bludgeoning">1d8</set>
 			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_MARAKA</set>
 		</setters>
+	</element>
+
+	<element name="Weapon Proficiency (Scythe)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE">
+		<supports>Weapon,Martial,Melee,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE,ID_INTERNAL_DAMAGE_TYPE_SLASHING,ID_INTERNAL_WEAPON_GROUP_SCYTHES</supports>
 	</element>
 
 	<element name="Weapon Proficiency (Katana)" type="Proficiency" source="HB Content" id="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA">
@@ -165,6 +184,7 @@
 		<rules>
 			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
 			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_KUSARIGAMA" />
+			<grant type="Proficiency" name="ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE" />
 		</rules>
 	</append>
 
