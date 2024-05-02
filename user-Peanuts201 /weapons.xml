@@ -3,7 +3,7 @@
 	<info>
 		<name>Weapons HB</name>
 		<description></description>
-		<update version="0.2.0">
+		<update version="0.2.1">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/weapons.xml" />
 		</update>
 	</info>
@@ -124,6 +124,23 @@
 	</element>
 
 <!--             Magic weapons             -->
+	
+	<element name="Scarred Earth" type="Magic Item" source="HB Content" id="ID_HBC_MAGIC_ITEM_SCARRED_EARTH">
+		<description>
+			<p>Place Holder Description</p>
+			<p class="indent"><strong><em>Place Holder Ability.</em></strong> Place Holder Effect</p>
+		</description>
+		<setters>
+			<set name="keywords">Scythe</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">nd</set>
+			<set name="type" addition="scythe">Weapon</set>
+			<set name="rarity">nd</set>
+			<set name="attunement">nd</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SCYTHES</set>
+		</setters>
+	</element>
 	
 	<element name="Sayafushi" type="Magic Item" source="HB Content" id="ID_HBC_MAGIC_ITEM_SAYAFUSHI">
 		<description>
