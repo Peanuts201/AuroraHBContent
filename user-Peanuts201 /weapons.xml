@@ -3,7 +3,7 @@
 	<info>
 		<name>Weapons HB</name>
 		<description></description>
-		<update version="0.2.1">
+		<update version="0.2.2">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/weapons.xml" />
 		</update>
 	</info>
@@ -18,8 +18,8 @@
 		</description>
 		<setters>
 			<set name="category">Weapons</set>
-			<set name="cost" currency="gp">place holder</set>
-			<set name="weight" lb="6">6 lb.</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="6">0 lb.</set>
 			<set name="slot">twohand</set>
 			<set name="damage" type="slashing">1d8</set>
 			<set name="proficiency">ID_HBC_PROFICIENCY_WEAPON_PROFICIENCY_SCYTHE</set>
