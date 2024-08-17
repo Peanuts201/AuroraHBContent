@@ -3,7 +3,7 @@
 	<info>
 		<name>Weapons HB</name>
 		<description></description>
-		<update version="0.2.2">
+		<update version="0.2.3">
 			<file name="weapons.xml" url="https://raw.githubusercontent.com/Peanuts201/AuroraHBContent/master/user-Peanuts201%20/weapons.xml" />
 		</update>
 	</info>
@@ -133,10 +133,10 @@
 		<setters>
 			<set name="keywords">Scythe</set>
 			<set name="category">Magic Weapons</set>
-			<set name="cost" currency="gp">nd</set>
+			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="scythe">Weapon</set>
-			<set name="rarity">nd</set>
-			<set name="attunement">nd</set>
+			<set name="rarity">rare</set>
+			<set name="attunement">no</set>
 			<set name="enhancement">1</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SCYTHES</set>
 		</setters>
